@@ -44,8 +44,8 @@ the distribution will be placed under the ``_rel`` directory.
 
 Grunt Commands
 --------------
-- *clean*: Clean files and folders
-- *deps*: Install erlang and javascript dependencies
-- *compile*: Compile the application
-- *run*: Run the application interatively in the console
-- *release*: Build the release distribution
+- **clean**: Clean files and folders
+- **deps**: Install erlang and javascript dependencies
+- **compile**: Compile the application and web-starter-kit code
+- **run**: Run the application interatively in the console
+- **release**: Build the release distribution
