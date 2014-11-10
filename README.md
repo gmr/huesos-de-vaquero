@@ -5,13 +5,29 @@ using Google [Web Starter Kit](https://github.com/google/web-starter-kit) and
 [Grunt](http://gruntjs.com/) for building and [Bower](http://bower.io/) for
 front-end dependency management.
 
-erlydtl is included and used for templating, templates compiling as part of
-the ``grunt compile`` step using the rebar erlydtl compilation plugin.
+[erlydtl](https://github.com/erlydtl/erlydtl) is included and used for templating,
+templates compiling as part of the ``grunt compile`` step using the rebar erlydtl
+compilation plugin.
+
+For the Erlang parts of the project, [rebar](https://github.com/basho/rebar) is
+used for dependency management and building, and [relx](https://github.com/erlware/relx)
+is used for release management.
+
+**Note**: This is mainly to demonstrate how to get a working Cowboy app going, serving
+templated HTML while using modern front-end tools. At best, you should use it to
+figure out how these things are connected and how to get an app up and going. It
+was not intended to be a *supported* framework for development. That being said
+if you find errors or problems, please [open an issue](https://github.com/gmr/huesos-de-vaquero/issues).
 
 Development Setup
 -----------------
-Grunt is used for building in the development environment. To get started using
-grunt, make sure that nodejs is installed.
+[Grunt](http://gruntjs.com/) is used for building in the development environment.
+To get started using grunt, make sure that
+[nodejs](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager)
+is installed.
+
+Because[Web Starter Kit](https://github.com/google/web-starter-kit) uses SASS for
+CSS, you'll need to [work through that installation](http://sass-lang.com/install) as well.
 
 Setup Steps:
 
