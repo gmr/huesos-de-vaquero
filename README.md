@@ -55,6 +55,9 @@ grunt compile
 grunt run
 ```
 
+With the application running, you chould be able to access it at
+[http://localhost:8080](http://localhost:8080).
+
 Finally to create the stand-alone release of your application, use ``grunt release`` and
 the distribution will be placed under the ``_rel`` directory.
 
