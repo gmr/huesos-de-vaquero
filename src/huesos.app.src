@@ -1,0 +1,17 @@
+{application, huesos,
+ [
+  {description, "Huesos de vaquero"},
+  {vsn, "2.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  cowboy,
+                  compiler,
+                  syntax_tools,
+                  erlydtl
+                 ]},
+  {mod, {huesos_app, []}},
+  {env, [{http_port, 8080}]}
+ ]}.

@@ -1,0 +1,23 @@
+{
+    "name": "huesos-de-vaquero",
+    "productName": "Huesos de Vaquero",
+    "version": "0.1.0",
+    "description": "Skeleton Cowboy HTTP Application",
+    "author": "Gavin M. Roy",
+    "license": "BSD",
+    "devDependencies": {
+        "coffee-script": "1.8.0",
+        "grunt": "0.4.5",
+        "grunt-bower": "0.16.0",
+        "grunt-check-dependencies": "0.6.0",
+        "grunt-cli": "0.1.13",
+        "grunt-contrib-coffee": "0.12.0",
+        "grunt-contrib-copy": "0.7.0",
+        "grunt-contrib-clean": "0.6.0",
+        "grunt-npm-install": "0.1.0",
+        "grunt-dev-update": "0.9.0",
+        "grunt-shell-spawn": "0.3.0",
+        "gulp": "3.8.10"
+    },
+    "private": true
+}

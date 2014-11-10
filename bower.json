@@ -1,0 +1,21 @@
+{
+  "name": "huesos-de-vaquero",
+  "version": "0.1.0",
+  "authors": [
+    "Gavin M. Roy <gavinmroy@gmail.com>"
+  ],
+  "description": "Skeleton web application",
+  "license": "BSD",
+  "homepage": "https://github.com/gmr/huesos-de-vaquero",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "web-starter-kit": "~0.5.2"
+  }
+}

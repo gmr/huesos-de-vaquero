@@ -1,0 +1,14 @@
+erl_crash.dump
+ebin
+.rebar
+_rel
+.DS_Store
+.beam
+deps
+node_modules
+bower_components
+static/fonts
+static/images
+static/scripts
+static/styles
+static/*.png
