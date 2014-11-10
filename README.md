@@ -1,7 +1,7 @@
 Huesos de Vaquero
 =================
-A skeleton project for writing Erlang web applications using Cowboy, using
-Google [Web Starter Kit](https://github.com/google/web-starter-kit) and
+A skeleton project for writing Erlang web applications using  [Cowboy](https://github.com/ninenines/cowboy),
+using Google [Web Starter Kit](https://github.com/google/web-starter-kit) and
 [Grunt](http://gruntjs.com/) for building and [Bower](http://bower.io/) for
 front-end dependency management.
 
@@ -41,3 +41,11 @@ grunt run
 
 Finally to create the stand-alone release of your application, use ``grunt release`` and
 the distribution will be placed under the ``_rel`` directory.
+
+Grunt Commands
+--------------
+- *clean*: Clean files and folders
+- *deps*: Install erlang and javascript dependencies
+- *compile*: Compile the application
+- *run*: Run the application interatively in the console
+- *release*: Build the release distribution

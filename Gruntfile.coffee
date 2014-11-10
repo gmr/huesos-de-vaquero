@@ -92,11 +92,11 @@ gruntFunction = (grunt) ->
   grunt.loadNpmTasks 'grunt-npm-install'
   grunt.loadNpmTasks 'grunt-shell-spawn'
 
-  grunt.registerTask 'default', ['deps', 'compile', 'wsk']
-  grunt.registerTask 'deps',    ['npm-install', 'shell:deps']
-  grunt.registerTask 'compile', ['shell:compile']
+  grunt.registerTask 'default', ['deps', 'compile']
+  grunt.registerTask 'deps',    ['npm-install', 'shell:deps', 'shell:bower', 'shell:wsk_install']
+  grunt.registerTask 'compile', ['shell:compile', 'wsk']
   grunt.registerTask 'run',     ['shell:run']
-  grunt.registerTask 'release', ['compile', 'wsk', 'shell:release']
-  grunt.registerTask 'wsk',     ['shell:bower', 'shell:wsk_install', 'shell:wsk_gulp', 'shell:wsk_copy_fonts', 'shell:wsk_copy_icon', 'shell:wsk_copy_images', 'shell:wsk_copy_scripts', 'shell:wsk_copy_styles']
+  grunt.registerTask 'release', ['compile']
+  grunt.registerTask 'wsk',     ['shell:wsk_gulp', 'shell:wsk_copy_fonts', 'shell:wsk_copy_icon', 'shell:wsk_copy_images', 'shell:wsk_copy_scripts', 'shell:wsk_copy_styles']
 
 module.exports = gruntFunction
